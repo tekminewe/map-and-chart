@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pin should not show pop up by default 1`] = `
+<div>
+  <svg
+    class="sc-AxjAm evlJpc"
+    data-testid="pin"
+  >
+    pin.svg
+  </svg>
+</div>
+`;
+
+exports[`Pin should toggle pop up when click on pin 1`] = `
+<div>
+  <div
+    class="sc-AxirZ fLvKCS"
+    data-testid="pop_up"
+  >
+    <p>
+      123
+      , 
+      123
+    </p>
+  </div>
+  <svg
+    class="sc-AxjAm evlJpc"
+    data-testid="pin"
+  >
+    pin.svg
+  </svg>
+</div>
+`;
+
+exports[`Pin should toggle pop up when click on pin 2`] = `
+<div>
+  <svg
+    class="sc-AxjAm evlJpc"
+    data-testid="pin"
+  >
+    pin.svg
+  </svg>
+</div>
+`;
+
+exports[`Pin should toggle pop up when click on popup 1`] = `
+<div>
+  <svg
+    class="sc-AxjAm evlJpc"
+    data-testid="pin"
+  >
+    pin.svg
+  </svg>
+</div>
+`;
