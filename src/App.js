@@ -1,9 +1,21 @@
 import React from 'react';
-import MapPage from './pages/map';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-function App() {
+import MapPage from './pages/map';
+import ChartPage from './pages/chart';
+import GlobalStyle from './styles/global';
+
+const App = () => {
   return (
-    <MapPage />
+    <>
+      <GlobalStyle />
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" exact component={MapPage} />
+          <Route path="/chart" exact component={ChartPage} />
+        </Switch>
+      </BrowserRouter>
+    </>
   );
 }
 
